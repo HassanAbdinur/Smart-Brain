@@ -14,7 +14,7 @@ const ImageLinkForm = () => {
               </div>
           </div>
       </div>
-    )
+    );
 }
 
 export default ImageLinkForm;
