@@ -17,7 +17,8 @@ const particlesOptions = {
       }
     }
   }
-}
+};
+
 class App extends Component {
   render() {
     return (
