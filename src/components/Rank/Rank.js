@@ -4,10 +4,10 @@ const Rank = () => {
     return (
         <div>
             <div className='white f3'>
-                {'Hassan, your current rank is...'}
+                {'Welcome to the Image Recognition platform for facial recognition using'}
             </div>
             <div className='white f1'>
-                {'#5'}
+                {'Clarifai API'}
             </div>
         </div>
     );
