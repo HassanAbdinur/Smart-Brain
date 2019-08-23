@@ -36,6 +36,7 @@ class App extends Component {
   }
 
   displayFaceBox = (box) => {
+    console.log(box);
     this.setState({box: box});
   }
 
@@ -61,7 +62,7 @@ class App extends Component {
     app.models.predict(
       Clarifai.FACE_DETECT_MODEL,
       this.state.input)
-      .then(response => this.calculateFaceLocation(response))
+      .then(response => this.displayFaceBoxthis(this.calculateFaceLocation(response)))
       .catch(err => console.log(err));
   }
 
