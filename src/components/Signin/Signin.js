@@ -22,7 +22,6 @@ const Signin = () => {
             </div>
             <div class="lh-copy mt3">
                 <a href="#0" class="f6 link dim black db">Sign up</a>
-                <a href="#0" class="f6 link dim black db">Forgot your password?</a>
             </div>
         </form>
     </main>
