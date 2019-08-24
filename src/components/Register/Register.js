@@ -9,7 +9,7 @@ const Register = ({ onRouteChange }) => {
                     <legend className="f1 fw6 ph0 mh0">Sign In</legend>
                     <div className="mt3">
                         <label className="db fw6 lh-copy f6" htmlFor="name">Name</label>
-                        <input className="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="text" name="name"  id="email-address" />
+                        <input className="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="text" name="name"  id="name" />
                     </div>
                     <div className="mt3">
                         <label className="db fw6 lh-copy f6" htmlFor="email-address">Email</label>
@@ -29,7 +29,7 @@ const Register = ({ onRouteChange }) => {
                         />
                     </div>
                     <div className="lh-copy mt3">
-                        <a href="#0" className="f6 link dim black db">Register</a>
+                        <a href="#0" className="f6 link dim black db">Sign</a>
                     </div>
                 </form>
             </main>
