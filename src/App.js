@@ -35,12 +35,11 @@ class App extends Component {
       imageUrl: '',
       box: {},
       route: 'signin',
-      isSignedIn: 'false'
+      isSignedIn: false
     }
   }
 
   displayFaceBox = (box) => {
-    console.log(box);
     this.setState({box: box});
   }
 
@@ -80,12 +79,13 @@ class App extends Component {
   }
 
   render() {
+    
     return (
         <div className="App">
             <Particles className='particles'
               params={particlesOptions}
             />
-          <Navigation onRouteChange={this.onRouteChange} />
+          <Navigation isSignedIn={this.state.isSignedIn} onRouteChange={this.onRouteChange} />
         { this.state.route === 'home' 
           ? <div> 
           <Logo />
